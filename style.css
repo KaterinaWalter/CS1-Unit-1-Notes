@@ -1,1 +1,8 @@
-
+body {
+    background: rgb(191, 168, 191);
+    color:blueviolet;
+}
+h1 {
+    color: hotpink;
+    background: aqua;
+}
