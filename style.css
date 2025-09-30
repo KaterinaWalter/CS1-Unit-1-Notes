@@ -1,8 +1,18 @@
 body {
-    background: rgb(191, 168, 191);
-    color:blueviolet;
+    background: rgb(225, 188, 255);
 }
-h1 {
+/* Select by TAG type */
+p {
+    color: plum;
+}
+/* Select by ID name (unique) */
+#kat {
+    background: grey;
+}
+/* Select by CLASS name (shared styles) */
+.uniform {
     color: hotpink;
-    background: aqua;
+}
+h1, h2, h3 {
+
 }
