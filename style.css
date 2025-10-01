@@ -1,5 +1,5 @@
 body {
-    background: rgb(225, 188, 255);
+    background: rgb(202, 243, 249);
 }
 /* Select by TAG type */
 p {
@@ -13,6 +13,13 @@ p {
 .uniform {
     color: hotpink;
 }
-h1, h2, h3 {
+
+h1 {
+    color: orchid;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;
+    font-family: Impact;
+    text-align: center;
 
 }
