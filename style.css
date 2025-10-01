@@ -1,14 +1,17 @@
 body {
     background: rgb(202, 243, 249);
 }
+
 /* Select by TAG type */
 p {
     color: plum;
 }
+
 /* Select by ID name (unique) */
 #kat {
     background: grey;
 }
+
 /* Select by CLASS name (shared styles) */
 .uniform {
     color: hotpink;
@@ -16,10 +19,9 @@ p {
 
 h1 {
     color: orchid;
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
     font-size: 40px;
-    font-family: Impact;
     text-align: center;
-
+    font-family: Impact;
 }
