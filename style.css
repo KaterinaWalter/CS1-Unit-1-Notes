@@ -20,10 +20,7 @@ p {
     color: hotpink;
 }
 
-
-
-
-
+/* Text formatting properties */
 h1 {
     color: orchid;
     font-weight: 200;
@@ -33,21 +30,4 @@ h1 {
     text-align:center;
 }
 
-/* "comment-out" a section of code
-* {
-    border: 2px solid red; 
-}
-*/
-
-
-
-.centered {
-    text-align: center;
-    margin: auto;
-}
-img {
-    border-width: 2px;
-    border-style: solid;
-    border-color: aqua;
-}
 
