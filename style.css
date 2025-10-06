@@ -10,6 +10,9 @@ p {
 /* Select by ID name (unique) */
 #kat {
     background: grey;
+    border: 5px outset hotpink;
+    padding: 12px;
+    margin: 30px;
 }
 
 /* Select by CLASS name (shared styles) */
@@ -30,4 +33,21 @@ h1 {
     text-align:center;
 }
 
+/* "comment-out" a section of code
+* {
+    border: 2px solid red; 
+}
+*/
+
+
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+img {
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+}
 
