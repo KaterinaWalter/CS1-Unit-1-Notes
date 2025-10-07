@@ -10,9 +10,12 @@ p {
 /* Select by ID name (unique) */
 #kat {
     background: grey;
-    border: 5px outset hotpink;
-    padding: 12px;
-    margin: 30px;
+    border-width: 8px;
+    border-style: outset;
+    border-color: hotpink;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
 }
 
 /* Select by CLASS name (shared styles) */
@@ -23,11 +26,19 @@ p {
 /* Text formatting properties */
 h1 {
     color: orchid;
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
     font-size: 50px;
     font-family: Impact;
-    text-align:center;
+    text-align: center;
 }
 
+/* Everything is a BOX 
+* {
+    border: 2px solid red;
+}
+*/
 
+hr {
+    border: 8px dashed orchid;
+}
