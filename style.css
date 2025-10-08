@@ -10,6 +10,10 @@ p {
 /* Select by ID name (unique) */
 #kat {
     background: grey;
+    border: 10px dotted hotpink;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px;
 }
 
 /* Select by CLASS name (shared styles) */
@@ -26,4 +30,24 @@ h1 {
     font-family: Impact;
     text-align: center;
 }
+
+
+/* "comment-out" code (deactivate) 
+* {
+    border: 2px solid red;
+}
+*/
+
+
+.centered {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    border-width: 15px;
+    border-style: double;
+    border-color: grey;
+}
+
 
